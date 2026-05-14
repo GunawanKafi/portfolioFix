@@ -1,0 +1,29 @@
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+    background: #6366f1;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #4338ca;
+}
+
+/* Glassmorphism Effect untuk Card */
+.glass-card {
+    background: rgba(30, 41, 59, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Animasi sederhana */
+.hover-scale {
+    transition: transform 0.3s ease;
+}
+.hover-scale:hover {
+    transform: translateY(-5px);
+}
