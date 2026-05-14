@@ -69,7 +69,7 @@ function sendToWhatsApp() {
 }
 function sendToEmail() {
   // 1. Masukkan email kamu di sini
-  const myEmail = "kafiagung@gmail.com";
+  const myEmail = "kafiagungg@gmail.com";
 
   // 2. Ambil nilai dari form
   const name = document.getElementById("contact-name").value;
